@@ -1,0 +1,73 @@
+
+.content-all{
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: transparent;
+}
+
+#categorias-list{
+padding-left: 500px;
+padding-top: 250px;
+
+}
+
+#productos-list{
+padding-right: 500px;
+padding-top: 250px;
+
+}
+
+#resultado, #resultadoproductos{
+    background-color: aliceblue;
+    font-style: oblique;
+    border-color: white;
+    border-style:dashed;
+}
+
+h1,h2{
+    size:20cap;
+    font-style: oblique;
+}
+
+.formulario{
+    background-color: antiquewhite;
+    border-color: white;
+    border-style:dashed;
+    justify-content: center;
+    align-items: center;
+}
+label{
+    size:10cap;
+    font-style: oblique;
+}
+
+#formulario-categoria{
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+#formulario-producto{
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+button{
+
+    color: black;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+input{
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+
+textarea{
+    border-radius: 10px;
+    background-color: aliceblue;
+}

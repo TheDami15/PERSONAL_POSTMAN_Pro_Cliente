@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Categorias&Productos</title>
+    <!-- Se incluye la librería jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Se vincula la hoja de estilos CSS -->
+    <link rel="stylesheet" href="public/css/index.css">
+</head>
+<body>
+    <div class="content-all">
+        <!-- Contenedor para el listado de categorías -->
+        <div id="categorias-list">
+            <h1>Listado de Categoría</h1>
+            <div id="resultado"></div>
+            <!-- Se incluye el script para leer las categorías -->
+            <script src="public/script/LeerCategoria.js"></script>
+            <!-- Formulario para crear una nueva categoría -->
+            <div class="formulario">
+                <h2>Crear Nueva Categoría</h2>
+                <form id="formulario-categoria">
+                    <label for="nombre-categoria">Nombre de la categoría:</label>
+                    <input type="text" id="nombre-categoria" name="nombre-categoria" required>
+                    <br>
+                    <label for="descripcion-categoria">Descripción de la categoría:</label>
+                    <br>
+                    <textarea id="descripcion-categoria" name="descripcion-categoria" required></textarea>
+                    <br>
+                    <button type="submit">Enviar</button>
+                </form>
+                <!-- Se incluye el script para insertar una nueva categoría -->
+                <script src="public/script/InsertarCategoria.js"></script>
+            </div>
+        </div>
+
+        <!-- Contenedor para el listado de productos -->
+        <div id="productos-list">
+            <h1>Listado de Productos</h1>
+            <div id="resultadoproductos"></div>
+            <!-- Se incluye el script para leer los productos -->
+            <script src="public/script/LeerProducto.js"></script>
+            <!-- Formulario para crear un nuevo producto -->
+            <div class="formulario">
+                <h2>Crear Nuevo Producto</h2>
+                <form id="formulario-producto">
+                    <label for="nombre-producto">Nombre del Producto:</label>
+                    <input type="text" id="nombre-producto" name="nombre-producto" required>
+                    <br>
+                    <label for="descripcion-producto">Descripción del Producto:</label>
+                    <br>
+                    <textarea id="descripcion-producto" name="descripcion-producto" required></textarea>
+                    <br>
+                    <label for="id-producto">Nombre del Producto:</label>
+                    <input type="text" id="id-producto" name="id-producto" required>
+                    <br>
+                    <button type="submit">Enviar</button>
+                </form>
+                <!-- Se incluye el script para insertar un nuevo producto -->
+                <script src="public/script/InsertarProducto.js"></script>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+

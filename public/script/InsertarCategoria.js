@@ -19,7 +19,7 @@ document.getElementById('formulario-categoria').addEventListener('submit', funct
         cat_nom: nombreCategoria,
         cat_obs: descripcionCategoria
     };
-  
+    const url = 'http://localhost/proyectos/PERSONAL_POSTMAN_Productos/controller/categoria.php?op=Insert';
     const xhr = new XMLHttpRequest(); // Crea una nueva solicitud XMLHttpRequest
   
     // Configura la solicitud
